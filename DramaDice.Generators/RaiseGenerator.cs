@@ -144,29 +144,8 @@ public static class RaiseGenerator
         if (currentDiePool.Sum() < successTarget) return new RaiseResults(new List<List<int>>(),currentDiePool);
         
         var permutations = new Permutations<int>(currentDiePool, GenerateOption.WithoutRepetition);
-
-        // foreach (var v in permutations)
-        // {
-        //     Console.WriteLine(string.Join(",", v));
-        // }
         
         var resultsList = ProcessPermutations(permutations,successTarget);
-       // var hhhh = resultsList.ToList();
-        
-        // foreach (var r in hhhh)
-        // {
-        //     Console.WriteLine($"Raises = {r.RaiseSets.Count}");
-        //     foreach (var item in r.RaiseSets)
-        //     {
-        //         Console.WriteLine(string.Join(",", item));
-        //     }
-        //     Console.WriteLine($"Traitor Dice = {r.TraitorDice.Count}");
-        //     Console.WriteLine(string.Join(",", r.TraitorDice));
-        //     Console.WriteLine("--------------------------------------------------");
-        // }
-        //  Console.ReadKey();
-        
-        // var successes = hhhh.Where(x => x.RaiseSets)
 
        var result = resultsList
            .OrderBy(x => x.TraitorDice.Count)
