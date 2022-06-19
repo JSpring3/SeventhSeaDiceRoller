@@ -3,7 +3,7 @@
 Console.WriteLine();
 Console.WriteLine();
 
-var myDicePool = DiceGenerator.Roll(40).ToList();
+var myDicePool = DiceGenerator.Roll(200).ToList();
 myDicePool.Sort();
 myDicePool.Reverse();
 
