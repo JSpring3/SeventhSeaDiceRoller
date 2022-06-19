@@ -1,0 +1,22 @@
+{
+  "mfRatio": {
+    "male": 50,
+    "female": 50
+  },
+  "nationsRatio": {
+    "avalon": 5,
+    "castille": 10,
+    "eisen": 10,
+    "generic": 1,
+    "highlandMarches": 10,
+    "inismore": 10,
+    "montaigne": 10,
+    "numa": 4,
+    "sarmatianCommonwealth": 10,
+    "ussura": 10,
+    "vestenmennavenjar": 10,
+    "vodacce": 10
+  },
+  "printSettingsToOutput": true,
+  "printFriendly": false
+}

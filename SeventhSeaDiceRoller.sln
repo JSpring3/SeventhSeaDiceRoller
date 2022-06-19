@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DramaDice.Services", "DramaDice.Services\DramaDice.Services.csproj", "{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiceLogic2", "DiceLogic2\DiceLogic2.csproj", "{13C88C17-9537-4467-84DD-BCC07F38D2B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8} = {F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_app", "_app", "{98417065-0354-4BD2-8BE2-D124A56DB73F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DramaDice.Shell", "DramaDice.Shell\DramaDice.Shell.csproj", "{C3EE20E9-3FB6-4C88-8CD2-21F99DA997A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generators", "Generators", "{E8F6D7B7-EFE5-4D6F-9B94-992A44280C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DramaDice.Generators", "DramaDice.Generators\DramaDice.Generators.csproj", "{9FB7300B-B543-4261-AD60-052E5B50BF12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{5EE78B4F-FC5F-4703-8C52-3DF1FED46650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DramaDice.Models", "DramaDice.Models\DramaDice.Models.csproj", "{A88B7612-33F6-421A-8F3C-9D9D87B3A980}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D2C6FBE0-E38E-463A-8258-B8FB782B4197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DramaDice.Test", "DramaDice.Test\DramaDice.Test.csproj", "{B903675E-704F-4207-81C6-F161F1B8D5A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "old", "old", "{34EB6D12-D140-47B4-B5C4-53E6EB66255D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C88C17-9537-4467-84DD-BCC07F38D2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C88C17-9537-4467-84DD-BCC07F38D2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C88C17-9537-4467-84DD-BCC07F38D2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C88C17-9537-4467-84DD-BCC07F38D2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EE20E9-3FB6-4C88-8CD2-21F99DA997A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EE20E9-3FB6-4C88-8CD2-21F99DA997A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EE20E9-3FB6-4C88-8CD2-21F99DA997A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EE20E9-3FB6-4C88-8CD2-21F99DA997A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB7300B-B543-4261-AD60-052E5B50BF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB7300B-B543-4261-AD60-052E5B50BF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB7300B-B543-4261-AD60-052E5B50BF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB7300B-B543-4261-AD60-052E5B50BF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88B7612-33F6-421A-8F3C-9D9D87B3A980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88B7612-33F6-421A-8F3C-9D9D87B3A980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88B7612-33F6-421A-8F3C-9D9D87B3A980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88B7612-33F6-421A-8F3C-9D9D87B3A980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B903675E-704F-4207-81C6-F161F1B8D5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B903675E-704F-4207-81C6-F161F1B8D5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B903675E-704F-4207-81C6-F161F1B8D5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B903675E-704F-4207-81C6-F161F1B8D5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3EE20E9-3FB6-4C88-8CD2-21F99DA997A5} = {98417065-0354-4BD2-8BE2-D124A56DB73F}
+		{9FB7300B-B543-4261-AD60-052E5B50BF12} = {E8F6D7B7-EFE5-4D6F-9B94-992A44280C2C}
+		{A88B7612-33F6-421A-8F3C-9D9D87B3A980} = {5EE78B4F-FC5F-4703-8C52-3DF1FED46650}
+		{B903675E-704F-4207-81C6-F161F1B8D5A3} = {98417065-0354-4BD2-8BE2-D124A56DB73F}
+		{13C88C17-9537-4467-84DD-BCC07F38D2B2} = {34EB6D12-D140-47B4-B5C4-53E6EB66255D}
+		{F50AAD83-0EDC-4F75-B0C7-52C76BD0ACF8} = {34EB6D12-D140-47B4-B5C4-53E6EB66255D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF0C69FF-480F-45DB-9E9A-4BACFDB4464C}
+	EndGlobalSection
+EndGlobal
