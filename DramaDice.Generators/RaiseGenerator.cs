@@ -22,7 +22,7 @@ public static class RaiseGenerator
         
         try
         {
-            // process dice against known sets of 10 
+            // process dice against known sets
             var (raiseSets, remaining) = ProcessKnownSets(originalDiePool,successTarget);
         
             raises.AddRange(raiseSets);
